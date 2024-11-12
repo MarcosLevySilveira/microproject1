@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Bands & Employees API</title>
+    <link href="./styles/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="api-demo.html">API Demo</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <h1>Welcome to the API Requests Showcase</h1>
+            <p>Explore the data provided by two distinct APIs we’re working with:</p>
+            
+            <section id="employees">
+                <h2>Employees API</h2>
+                <p>The <strong>Employees API</strong> provides information about various employees, including their personal 
+                    details like name, email, gender, and job title. This data can be fetched and displayed using the buttons 
+                    on the API demo page, which fetch the information using either the Fetch() method or Async/Await.</p>
+                <h3>Employees API - Data Request</h3>    
+                <ul>
+                    <li>Employee ID</li>
+                    <li>First Name</li>
+                    <li>Last Name</li>
+                    <li>Email</li>
+                    <li>Gender</li>
+                    <li>Job Title</li>
+                </ul>
+            </section>
+
+            <section id="rockbands">
+                <h2>Rock Bands API</h2>
+                <p>The <strong>Rock Bands API</strong> provides data related to different rock bands, including their name, genre, 
+                    formation year, and country. You can explore the API responses on the API demo page as well, where data is fetched 
+                    and displayed for rock bands using Fetch() or Async/Await methods.</p>
+                <h3>Rock Bands API - Data Request</h3>
+                <ul>
+                    <li>Band Name</li>
+                    <li>Genre</li>
+                    <li>Formation Year</li>
+                    <li>Country</li>
+                    <li>Band Members</li>
+                </ul>
+            </section>
+
+            <p>If you want to see how the data from these APIs is fetched and displayed, go to the <a href="api-demo.html">API Demo</a> page where you can interact with the data in real-time.</p>
+        </div>
+
+        <footer>
+            <p>&copy; MicroProject 1 - Developed by: Marcos Silveira</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Black Sabbath",
+        "country": "United Kingdom",
+        "formed_in": 1968,
+        "genre": "Heavy Metal"
+    },
+    {
+        "id": 2,
+        "name": "Iron Maiden",
+        "country": "United Kingdom",
+        "formed_in": 1975,
+        "genre": "Heavy Metal"
+    },
+    {
+        "id": 3,
+        "name": "Metallica",
+        "country": "United States",
+        "formed_in": 1981,
+        "genre": "Thrash Metal"
+    },
+    {
+        "id": 4,
+        "name": "Slayer",
+        "country": "United States",
+        "formed_in": 1981,
+        "genre": "Thrash Metal"
+    },
+    {
+        "id": 5,
+        "name": "Judas Priest",
+        "country": "United Kingdom",
+        "formed_in": 1969,
+        "genre": "Heavy Metal"
+    },
+    {
+        "id": 6,
+        "name": "Pantera",
+        "country": "United States",
+        "formed_in": 1981,
+        "genre": "Groove Metal"
+    },
+    {
+        "id": 7,
+        "name": "Megadeth",
+        "country": "United States",
+        "formed_in": 1983,
+        "genre": "Thrash Metal"
+    },
+    {
+        "id": 8,
+        "name": "Anthrax",
+        "country": "United States",
+        "formed_in": 1981,
+        "genre": "Thrash Metal"
+    },
+    {
+        "id": 9,
+        "name": "Motörhead",
+        "country": "United Kingdom",
+        "formed_in": 1975,
+        "genre": "Heavy Metal"
+    },
+    {
+        "id": 10,
+        "name": "Korn",
+        "country": "United States",
+        "formed_in": 1993,
+        "genre": "Nu Metal"
+    }
+]

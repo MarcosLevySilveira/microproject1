@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Service - Marcos Levy</title>
+    <link rel="stylesheet" href="./styles/services.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html" class="current">Services</a></li>
+                    <li><a href="api-demo.html">API Demo</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h1>What is an API Service?</h1>
+            <p>An API (Application Programming Interface) service is a set of functions and procedures that allow one application to interact with another. It allows different software systems to communicate with each other, enabling the exchange of data and services between them.</p>
+            <p>In simple terms, an API provides a way for applications to request and exchange information from other applications or servers.</p>
+        </section>
+
+        <section>
+            <h2>How Does an API Work?</h2>
+            <p>APIs are often used to allow web services to send and receive data. When you make a request to an API, you're sending data to the server to ask for some kind of response. The server processes your request and sends back the data in a format such as JSON or XML.</p>
+            <p>API requests typically involve the following steps:</p>
+            <ul>
+                <li><strong>Request:</strong> The client (you) sends a request to the API endpoint, which could be a URL with parameters.</li>
+                <li><strong>Processing:</strong> The API processes the request on the server side.</li>
+                <li><strong>Response:</strong> The API sends back a response containing the requested data or result.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>How to Make an API Request</h2>
+            <p>Making an API request involves sending an HTTP request to a specific API endpoint. Below is an example of how to make a GET request to retrieve data from an API.</p>
+
+            <h3>Example Request (GET)</h3>
+            <pre>
+GET https://api.example.com/data
+Headers:
+    Content-Type: application/json
+            </pre>
+
+            <p>In the example above, the request is sent to <code>https://api.example.com/data</code> to get data. You can also add parameters to the URL, like so:</p>
+            <pre>
+GET https://api.example.com/data?user_id=1234&status=active
+            </pre>
+
+            <h3>Example Response</h3>
+            <pre>
+{
+  "user_id": 1234,
+  "status": "active",
+  "name": "John Doe",
+  "email": "johndoe@example.com"
+}
+            </pre>
+        </section>
+
+        <section>
+            <h2>Common HTTP Methods for API Requests</h2>
+            <p>When interacting with an API, there are several HTTP methods you can use to perform different actions:</p>
+            <ul>
+                <li><strong>GET:</strong> Retrieve data from the server.</li>
+                <li><strong>POST:</strong> Send data to the server (e.g., submitting a form).</li>
+                <li><strong>PUT:</strong> Update existing data on the server.</li>
+                <li><strong>DELETE:</strong> Remove data from the server.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Authentication & Authorization</h2>
+            <p>Many APIs require authentication to ensure that only authorized users can access their services. Common methods of authentication include:</p>
+            <ul>
+                <li><strong>API Key:</strong> A unique key passed in the request headers to authenticate users.</li>
+                <li><strong>OAuth:</strong> A token-based authentication system that allows third-party services to access your account without sharing passwords.</li>
+            </ul>
+            <p>Make sure you follow the specific API’s documentation for details on how to authenticate your requests.</p>
+        </section>
+
+        <section>
+            <h2>Why Use an API?</h2>
+            <p>APIs provide a wide range of benefits for both developers and users:</p>
+            <ul>
+                <li><strong>Integration:</strong> APIs allow different services and applications to work together, enabling integration between platforms.</li>
+                <li><strong>Automation:</strong> APIs allow automated workflows, reducing the need for manual input.</li>
+                <li><strong>Scalability:</strong> APIs allow businesses to scale their services by integrating with third-party solutions.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Marcos Levy. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

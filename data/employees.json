@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "first_name": "Nataline",
+        "last_name": "Attrie",
+        "email": "nattrie0@state.tx.us",
+        "gender": "Female",
+        "job_title": "Teacher"
+    },
+    {
+        "id": 2,
+        "first_name": "Shirleen",
+        "last_name": "Iannuzzi",
+        "email": "siannuzzi1@loc.gov",
+        "gender": "Female",
+        "job_title": "Speech Pathologist"
+    },
+    {
+        "id": 3,
+        "first_name": "Malanie",
+        "last_name": "Bummfrey",
+        "email": "mbummfrey2@xinhuanet.com",
+        "gender": "Agender",
+        "job_title": "Physical Therapy Assistant"
+    },
+    {
+        "id": 4,
+        "first_name": "Lilyan",
+        "last_name": "Frisch",
+        "email": "lfrisch3@samsung.com",
+        "gender": "Female",
+        "job_title": "Staff Accountant I"
+    },
+    {
+        "id": 5,
+        "first_name": "Krisha",
+        "last_name": "Puden",
+        "email": "kpuden4@auda.org.au",
+        "gender": "Male",
+        "job_title": "Senior Developer"
+    },
+    {
+        "id": 6,
+        "first_name": "Merrill",
+        "last_name": "Olivie",
+        "email": "molivie5@prlog.org",
+        "gender": "Male",
+        "job_title": "Product Engineer"
+    },
+    {
+        "id": 7,
+        "first_name": "Nikolai",
+        "last_name": "Plaunch",
+        "email": "nplaunch6@jimdo.com",
+        "gender": "Male",
+        "job_title": "Data Coordinator"
+    },
+    {
+        "id": 8,
+        "first_name": "Bette-ann",
+        "last_name": "Kuschel",
+        "email": "bkuschel7@last.fm",
+        "gender": "Female",
+        "job_title": "VP Accounting"
+    },
+    {
+        "id": 9,
+        "first_name": "Gerik",
+        "last_name": "Steart",
+        "email": "gsteart8@xrea.com",
+        "gender": "Male",
+        "job_title": "Senior Sales Associate"
+    },
+    {
+        "id": 10,
+        "first_name": "Gus",
+        "last_name": "Courteney",
+        "email": "gcourteney9@springer.com",
+        "gender": "Male",
+        "job_title": "Computer Systems Analyst II"
+    }
+]
